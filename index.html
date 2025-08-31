@@ -1,28 +1,254 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HARMS: Home</title>
-  <link rel="stylesheet" href="style.css">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code for Ethiopian Culture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <img src="" alt="">  
-  <header>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+    <!-- Page Transition Overlay -->
+    <div class="page-transition-overlay" id="pageTransitionOverlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16,18 22,12 16,6"></polyline>
+                        <polyline points="8,6 2,12 8,18"></polyline>
+                    </svg>
+                    <span class="nav-title">Code for Ethiopian Culture</span>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="work.html" class="nav-link">Our Work</a>
+                    <a href="team.html" class="nav-link">Team</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
     </nav>
-  </header>
-  <main>
-    <section>
-      <h1>HARMS</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium suscipit, iste incidunt perferendis magnam asperiores. Ea vero temporibus natus culpa eligendi animi voluptatibus aliquam dolore!</p>
+
+    <!-- Diagonal Hero Section -->
+    <section class="diagonal-hero">
+        <div class="diagonal-hero-bg"></div>
+        <div class="diagonal-hero-overlay"></div>
+        <!-- Background Image Section -->
+        <div class="hero-background-image" style="background-image: url('/placeholder.svg?height=800&width=1200')"></div>
+        <div class="diagonal-hero-content">
+            <div class="diagonal-hero-brand">
+                Code for Ethiopian Culture
+            </div>
+            <h1 class="diagonal-hero-title">
+                Preserving Heritage Through Code
+            </h1>
+            <p class="diagonal-hero-description">
+                A non-profit team dedicated to showcasing the rich heritage and vibrant culture of Ethiopia through innovative technology solutions.
+            </p>
+            <a href="work.html" class="diagonal-hero-btn">
+                Discover Our Projects
+            </a>
+        </div>
     </section>
-  </main>
+
+    <!-- Background Image Section Between Hero and Mission -->
+    <section class="background-image-section">
+        <div class="background-image-container" style="background-image: url('/placeholder.svg?height=400&width=1200')">
+            <div class="background-overlay"></div>
+            <div class="background-content">
+                <h3>Rich Cultural Heritage</h3>
+                <p>Thousands of years of tradition and innovation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Mission</h2>
+                <p class="section-description">
+                    Bridging technology and tradition to preserve, celebrate, and share Ethiopian culture with the world.
+                </p>
+            </div>
+
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mission-title">Cultural Preservation</h3>
+                    <p class="mission-text">
+                        Using technology to document, preserve, and share Ethiopia's rich cultural heritage for future generations.
+                    </p>
+                </div>
+
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mission-title">Community Impact</h3>
+                    <p class="mission-text">
+                        Building digital solutions that connect Ethiopian communities worldwide and strengthen cultural bonds.
+                    </p>
+                </div>
+
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mission-title">Global Reach</h3>
+                    <p class="mission-text">
+                        Making Ethiopian culture accessible to a global audience through innovative web and mobile applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Another Background Image Section -->
+    <section class="background-image-section">
+        <div class="background-image-container" style="background-image: url('/placeholder.svg?height=400&width=1200')">
+            <div class="background-overlay"></div>
+            <div class="background-content">
+                <h3>Technology Meets Tradition</h3>
+                <p>Bridging the gap between heritage and innovation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Preview -->
+    <section class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Discover some of our recent work showcasing Ethiopian culture through technology.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image project-image-1"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Ethiopian Recipe App</h3>
+                        <p class="project-description">
+                            A digital cookbook preserving traditional Ethiopian recipes and cooking techniques.
+                        </p>
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image project-image-2"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cultural Heritage Map</h3>
+                        <p class="project-description">
+                            Interactive map showcasing historical sites and cultural landmarks across Ethiopia.
+                        </p>
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image project-image-3"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Language Learning Platform</h3>
+                        <p class="project-description">
+                            Educational platform for learning Amharic and other Ethiopian languages.
+                        </p>
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <a href="work.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <!-- Background Image to CTA Section -->
+        <div class="cta-background" style="background-image: url('/placeholder.svg?height=600&width=1200')"></div>
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Join Our Mission</h2>
+                <p class="cta-description">
+                    Whether you're a developer, designer, or cultural enthusiast, there's a place for you in our community.
+                </p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Involved</a>
+                    <a href="team.html" class="btn btn-outline">Meet the Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                        <span class="footer-title">Code for Ethiopian Culture</span>
+                    </div>
+                    <p class="footer-description">
+                        A non-profit organization dedicated to preserving and showcasing Ethiopian culture through innovative technology solutions.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="work.html" class="footer-link">Our Work</a></li>
+                        <li><a href="team.html" class="footer-link">Team</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Connect</h3>
+                    <p class="footer-email">Email: info@codeforethiopianculture.org</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Code for Ethiopian Culture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+

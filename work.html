@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work - Code for Ethiopian Culture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16,18 22,12 16,6"></polyline>
+                        <polyline points="8,6 2,12 8,18"></polyline>
+                    </svg>
+                    <a href="index.html" class="nav-title">Code for Ethiopian Culture</a>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="work.html" class="nav-link active">Our Work</a>
+                    <a href="team.html" class="nav-link">Team</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Our
+                    <span class="hero-highlight">Portfolio</span>
+                </h1>
+                <p class="hero-description">
+                    Discover the digital solutions we've created to preserve, celebrate, and share Ethiopian culture with
+                    communities around the world.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="impact-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">75K+</div>
+                    <div class="stat-label">Users Reached</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1500+</div>
+                    <div class="stat-label">Cultural Items Preserved</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Community Partners</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Our most impactful projects that have made a significant difference in preserving and promoting Ethiopian
+                    culture.
+                </p>
+            </div>
+
+            <div class="featured-grid">
+                <!-- Ethiopian Recipe Collection -->
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <svg class="featured-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                            <path d="M7 2v20"></path>
+                            <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+                        </svg>
+                    </div>
+                    <div class="featured-content">
+                        <div class="featured-badges">
+                            <span class="badge badge-secondary">Cultural Preservation</span>
+                            <span class="badge badge-success">Live</span>
+                        </div>
+                        <h3 class="featured-title">Ethiopian Recipe Collection</h3>
+                        <p class="featured-description">
+                            A comprehensive digital cookbook preserving traditional Ethiopian recipes, cooking techniques, and the cultural stories behind each dish. Features step-by-step instructions, ingredient substitutions, and video tutorials from Ethiopian grandmothers.
+                        </p>
+                        <div class="featured-tech">
+                            <p class="tech-label">Technologies:</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Supabase</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                            </div>
+                        </div>
+                        <p class="featured-impact">500+ recipes documented, 10K+ users worldwide</p>
+                        <div class="featured-actions">
+                            <button class="btn btn-primary btn-sm">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                View Project
+                            </button>
+                            <button class="btn btn-outline btn-sm">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Heritage Map -->
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <svg class="featured-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+                            <line x1="8" y1="2" x2="8" y2="18"></line>
+                            <line x1="16" y1="6" x2="16" y2="22"></line>
+                        </svg>
+                    </div>
+                    <div class="featured-content">
+                        <div class="featured-badges">
+                            <span class="badge badge-secondary">Educational</span>
+                            <span class="badge badge-success">Live</span>
+                        </div>
+                        <h3 class="featured-title">Interactive Heritage Map</h3>
+                        <p class="featured-description">
+                            An interactive map showcasing historical sites, cultural landmarks, and UNESCO World Heritage sites across Ethiopia. Includes 360° virtual tours, historical context, and user-contributed stories.
+                        </p>
+                        <div class="featured-tech">
+                            <p class="tech-label">Technologies:</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Mapbox</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                        <p class="featured-impact">200+ locations mapped, 50K+ virtual visits</p>
+                        <div class="featured-actions">
+                            <button class="btn btn-primary btn-sm">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                View Project
+                            </button>
+                            <button class="btn btn-outline btn-sm">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amharic Learning Platform -->
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <svg class="featured-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="featured-content">
+                        <div class="featured-badges">
+                            <span class="badge badge-secondary">Educational</span>
+                            <span class="badge badge-success">Live</span>
+                        </div>
+                        <h3 class="featured-title">Amharic Learning Platform</h3>
+                        <p class="featured-description">
+                            A gamified language learning platform for Amharic, featuring interactive lessons, pronunciation guides, and cultural context. Designed for both children and adults in the diaspora.
+                        </p>
+                        <div class="featured-tech">
+                            <p class="tech-label">Technologies:</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">WebRTC</span>
+                            </div>
+                        </div>
+                        <p class="featured-impact">5K+ active learners, 95% completion rate</p>
+                        <div class="featured-actions">
+                            <button class="btn btn-primary btn-sm">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                View Project
+                            </button>
+                            <button class="btn btn-outline btn-sm">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Projects -->
+    <section class="all-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">All Projects</h2>
+                <p class="section-description">
+                    Explore our complete portfolio of cultural preservation and community-building initiatives.
+                </p>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cultural-preservation">Cultural Preservation</button>
+                <button class="filter-btn" data-filter="educational">Educational</button>
+                <button class="filter-btn" data-filter="community">Community</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- All 6 projects -->
+                <div class="project-card" data-category="cultural-preservation">
+                    <div class="project-header">
+                        <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                            <path d="M7 2v20"></path>
+                            <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+                        </svg>
+                        <span class="badge badge-success">Live</span>
+                    </div>
+                    <h3 class="project-title">Ethiopian Recipe Collection</h3>
+                    <span class="badge badge-secondary project-category">Cultural Preservation</span>
+                    <p class="project-description">
+                        A comprehensive digital cookbook preserving traditional Ethiopian recipes, cooking techniques, and the cultural stories...
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Supabase</span>
+                    </div>
+                    <p class="project-impact">500+ recipes documented, 10K+ users worldwide</p>
+                    <div class="project-actions">
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                        <button class="btn btn-outline btn-sm">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="educational">
+                    <div class="project-header">
+                        <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+                            <line x1="8" y1="2" x2="8" y2="18"></line>
+                            <line x1="16" y1="6" x2="16" y2="22"></line>
+                        </svg>
+                        <span class="badge badge-success">Live</span>
+                    </div>
+                    <h3 class="project-title">Interactive Heritage Map</h3>
+                    <span class="badge badge-secondary project-category">Educational</span>
+                    <p class="project-description">
+                        An interactive map showcasing historical sites, cultural landmarks, and UNESCO World Heritage sites across Ethiopia...
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Mapbox</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                    <p class="project-impact">200+ locations mapped, 50K+ virtual visits</p>
+                    <div class="project-actions">
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                        <button class="btn btn-outline btn-sm">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="educational">
+                    <div class="project-header">
+                        <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        <span class="badge badge-success">Live</span>
+                    </div>
+                    <h3 class="project-title">Amharic Learning Platform</h3>
+                    <span class="badge badge-secondary project-category">Educational</span>
+                    <p class="project-description">
+                        A gamified language learning platform for Amharic, featuring interactive lessons, pronunciation guides, and cultural context...
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                    <p class="project-impact">5K+ active learners, 95% completion rate</p>
+                    <div class="project-actions">
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                        <button class="btn btn-outline btn-sm">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="cultural-preservation">
+                    <div class="project-header">
+                        <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18V5l12-2v13"></path>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <circle cx="18" cy="16" r="3"></circle>
+                        </svg>
+                        <span class="badge badge-warning">Beta</span>
+                    </div>
+                    <h3 class="project-title">Ethiopian Music Archive</h3>
+                    <span class="badge badge-secondary project-category">Cultural Preservation</span>
+                    <p class="project-description">
+                        Digital preservation of traditional Ethiopian music, featuring rare recordings, artist biographies, and the evolution...
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">AWS S3</span>
+                        <span class="tech-tag">Elasticsearch</span>
+                    </div>
+                    <p class="project-impact">1000+ songs archived, 20+ artists featured</p>
+                    <div class="project-actions">
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                        <button class="btn btn-outline btn-sm">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="community">
+                    <div class="project-header">
+                        <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <span class="badge badge-success">Live</span>
+                    </div>
+                    <h3 class="project-title">Diaspora Community Hub</h3>
+                    <span class="badge badge-secondary project-category">Community</span>
+                    <p class="project-description">
+                        A social platform connecting Ethiopian communities worldwide, featuring event listings, cultural discussions...
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Prisma</span>
+                        <span class="tech-tag">NextAuth</span>
+                    </div>
+                    <p class="project-impact">15+ cities connected, 3K+ community members</p>
+                    <div class="project-actions">
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                        <button class="btn btn-outline btn-sm">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="cultural-preservation">
+                    <div class="project-header">
+                        <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                        <span class="badge badge-outline">Development</span>
+                    </div>
+                    <h3 class="project-title">Traditional Art Gallery</h3>
+                    <span class="badge badge-secondary project-category">Cultural Preservation</span>
+                    <p class="project-description">
+                        Virtual gallery showcasing Ethiopian traditional art, crafts, and contemporary works inspired by cultural heritage...
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Gatsby</span>
+                        <span class="tech-tag">Strapi</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                    <p class="project-impact">100+ artworks featured, 30+ artists supported</p>
+                    <div class="project-actions">
+                        <button class="btn btn-outline btn-sm">Learn More</button>
+                        <button class="btn btn-outline btn-sm">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies We Use -->
+    <section class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technologies We Use</h2>
+                <p class="section-description">
+                    We leverage modern, reliable technologies to build scalable and maintainable solutions.
+                </p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Frontend</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Backend</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Supabase</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Cloud & DevOps</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Vercel</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">GitHub Actions</span>
+                        <span class="tech-tag">Cloudinary</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Tools</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">Mapbox</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">WebRTC</span>
+                        <span class="tech-tag">Elasticsearch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Have a Project Idea?</h2>
+                <p class="cta-description">
+                    We're always looking for new ways to preserve and celebrate Ethiopian culture through technology. Let's
+                    collaborate on your next cultural preservation project.
+                </p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Start a Project</a>
+                    <a href="team.html" class="btn btn-outline">Meet Our Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                        <span class="footer-title">Code for Ethiopian Culture</span>
+                    </div>
+                    <p class="footer-description">
+                        A non-profit organization dedicated to preserving and showcasing Ethiopian culture through innovative
+                        technology solutions.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="work.html" class="footer-link">Our Work</a></li>
+                        <li><a href="team.html" class="footer-link">Team</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Connect</h3>
+                    <p class="footer-email">Email: info@codeforethiopianculture.org</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Code for Ethiopian Culture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
